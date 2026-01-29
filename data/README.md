@@ -25,4 +25,23 @@
 - Text patterns differ between fake and genuine reviews.
 - Preprocessing and modeling will be done in the next step.
 
+### Dataset Overview
+- Text column: Review
+- Label column: Liked
+- Dataset contains short restaurant reviews
+
+
+### Preprocessing Observations
+- Cleaned text is lowercase and noise-free
+- URLs and punctuation are removed
+- Stopwords are removed
+- Text is now suitable for vectorization
+
+
+### Summary
+- Preprocessing applied successfully
+- Cleaned text stored in `cleaned_review`
+- Dataset is ready for feature extraction
+
+
 
