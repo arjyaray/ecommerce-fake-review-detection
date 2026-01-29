@@ -6,10 +6,10 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
-# Download required NLTK resources (only first time)
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
+# # Download required NLTK resources (only first time)
+# nltk.download('punkt')
+# nltk.download('stopwords')
+# nltk.download('wordnet')
 
 
 stop_words = set(stopwords.words('english'))
